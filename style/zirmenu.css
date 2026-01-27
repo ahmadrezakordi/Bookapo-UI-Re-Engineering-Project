@@ -1,0 +1,72 @@
+.cat:hover > #catHolder{
+    visibility: visible;
+}
+
+.cat > #catHolder{
+    width: 1000px;
+    height: 350px;
+    position: absolute;
+    top: 37px;
+    right: -100px;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+.cat > #catHolder > div{
+    width: 31%;
+    height: 100%;
+}
+
+.cat > #catHolder > div > div:hover{
+    background-color: #f0eeee;
+}
+
+.cat > #catHolder > div > div{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+/* .cat > #catHolder > #cat1{
+    width: 31%;
+    height: 100%;
+}
+
+.cat > #catHolder > #cat1 > div{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.cat > #catHolder > #cat2{
+    width: 31%;
+    height: 100%;
+}
+
+.cat > #catHolder > #cat2 > div{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.cat > #catHolder > #cat3{
+    width: 31%;
+    height: 100%;
+}
+
+.cat > #catHolder > #cat3 > div{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+} */

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="icon" href="photos/photos/favIcon/favIcon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style/font.css" rel="stylesheet">
+        <link href="style/header.css" rel="stylesheet">
+        <link href="style/zirmenu.css" rel="stylesheet">
+        <link href="style/content.css" rel="stylesheet">
+        <link href="style/miniSlider.css" rel="stylesheet">
+        <link href="style/slider.css" rel="stylesheet">
+        <link href="style/nav.css" rel="stylesheet">
+        <link href="style/detail.css" rel="stylesheet">
+        <link href="style/footer.css" rel="stylesheet">
+
+        <script src="script/zirMenu.json"></script>
+        <script src="script/productData.json"></script>
+        <script src="script/category.json"></script>
+        <script src="script/generate.js"></script>
+        <script src="script/show.js"></script>
+        <script src="script/zirGenerate.js"></script>
+        <script src="script/search.js"></script>
+        <script src="script/slider.js"></script>
+
+        <audio src="bookAudio/13kar.mp3" id="auBook"></audio>
+
+    </head>
+
+    <body id="body" class="">
+
+        <div id="header">
+            <div id="up" class="hide" onclick="up1()"></div>
+
+            <div class="top">
+                <div class="logo"><p>دریچه‌ای به خلاصه کتاب های روز دنیا</p></div>
+
+                <div class="search">
+                    <input id="search" placeholder="جستجو در نام کتاب، نویسنده، موضوع و ...">
+                    <div id="overlay" class="hide"></div>
+                    <div id="results" class="hide"></div>
+                </div>
+
+                <div class="sign">ورود / ثبت نام</div>
+            </div>
+
+            <div class="buttom">
+                <div class="items home" onclick="showBooks()">خانه</div>
+                <div class="items cat">دسته بندی ها
+                    <div id="catHolder">
+                        <div id="cat1"></div>
+                        <div id="cat2"></div>
+                        <div id="cat3"></div>
+                    </div>
+                </div>
+                <div class="items" id="cat2Ic"></div>
+                <div class="items mag">مجله</div>
+                <div class="items buy">خرید اشتراک</div>
+                <div class="items buy2"></div>
+                <div class="items down">دانلود اپلیکیشن موبایل</div>
+            </div>
+        </div>
+
+        <div id="content" class="show">
+            <div class="first">
+                <div class="right">
+                    <div class="img"></div>
+                    <p class="title">خلاصه برترین و ‌پرفروش‌ترین</p>
+                    <div class="color1"></div>
+                    <p class="t2">کتابهای دنیا در جیب شما</p>   
+                    <div class="color2"></div>
+
+                    <p class="dis">بوکاپو مجموعه‌ای از صدها خلاصه کتاب مطرح صوتی و متنی در دسته بندی‌های متنوع را در اختیار شما می‌گذارد. خلاصه کتاب اول را از ما هدیه بگیرید!</p>
+
+                    <div class="sum">خلاصه کتاب هدیه خود را دریافت کنید</div>
+                </div>
+
+                <div class="img"></div>
+            </div>
+
+            <div class="help">
+                <div class="top">
+                    <div class="img"></div>
+                    <p class="title">بوکاپو چه کمکی به من می‌کند؟</p>
+                    <p>با ارائه چکیده برترین کتاب‌های دنیا، به شما کمک می‌کنیم در زمان کوتاه‌تری عادات مثبت جدید بسازید و خود را بهبود دهید</p>
+                </div>
+
+                <div class="buttom">
+                    <div class="top">
+                        <div class="h1">
+                            <div class="img"></div>
+                            <p class="title">ایده اصلی کتاب‌ها در ۳۰ دقیقه</p>
+                            <p>با صرف حدود ۳۰ دقیقه محتوای اصلی کتاب‌های مطرح دنیا را دریافت کنید.</p>
+                        </div>
+
+                        <div class="h2">
+                            <div class="img"></div>
+                            <p class="title">خلاصه صوتی و متنی</p>
+                            <p>به انتخاب خود متن خلاصه کتاب‌ها را مطالعه کرده و یا به خلاصه صوتی آن‌ها گوش دهید.</p>
+                        </div>
+
+                        <div class="h3">
+                            <div class="img"></div>
+                            <p class="title">کتابخانه جامع</p>
+                            <p>با چکیده بیش از ۷۰۰ کتاب مطرح و شناخته شده دنیا آشنا شوید.</p>
+                        </div>
+                    </div>
+
+                    <div class="buttom">
+                        <div class="h4">
+                            <div class="img"></div>
+                            <p class="title">مطالعه بدون نیاز به اینترنت</p>
+                            <p>خلاصه کتاب‌های مورد نظر خود را با اپلیکیشن دانلود کرده و آفلاین مطالعه کنید.</p>
+                        </div>
+
+                        <div class="h5">
+                            <div class="img"></div>
+                            <p class="title">دسته‌بندی‌های متنوع</p>
+                            <p>با خلاصه برترین و محبوب‌ترین کتاب‌های دنیا در ۱۹ دسته‌بندی متنوع آشنا شوید.</p>
+                        </div>
+
+                        <div class="h6">
+                            <div class="img"></div>
+                            <p class="title">خلاصه کتاب هفتگی رایگان</p>
+                            <p>هر هفته به خلاصه یک کتاب منتخب کاربران بوکاپو گوش دهید یا آن را مطالعه کنید.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gift">
+                <div class="right">
+                    <p class="title">از بوکاپو هدیه بگیرید!</p>
+                    <p>همین حالا ثبت نام کنید و خلاصه کتاب اول را از ما هدیه بگیرید!</p>
+                    <div class="gift">ثبت نام و دریافت هدیه</div>
+                </div>
+
+                <div class="left">
+                    <div class="img"></div>
+                </div>
+            </div>
+
+            <div class="phone">
+                <div class="p1">
+                    <div class="dis">
+                        <div class="img"></div>
+                        <p class="title">بی نظیره دو ساله مشترک هستم خلاصه ای منسجم و عالی استفاده از گوینده های عالی کتب زیاد و ارزشمند پشتیبانی سریع</p>
+                        <p>عسل | نظر ثبت شده در کافه بازار</p>
+                    </div>
+
+                    <div class="img"></div>
+                </div>
+
+                <div class="p2">
+                    <div class="img"></div>
+                </div>
+
+                <div class="p3">
+                    <div class="img"></div>
+
+                    <div class="dis">
+                        <div class="img"></div>
+                        <p class="title">کتاب هایی که داره خلاصه و مفیده و هر هفته یه خلاصه کتاب رایگان هم میذاره. اپ خوبیه. من راضیم. تشکر میکنم بابتش ❤️</p>
+                        <p>محمدحسین | نظر ثبت شده در کافه بازار</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="idea">
+                <p>نظرات همراهان بوکاپو</p>
+
+                <div id="minislider6" class="miniSlider">
+                <div id="gal6" class="gal">
+                    <div class="e1 items"></div>
+                    <div class="e2 items"></div>
+                    <div class="e3 items"></div>
+                    <div class="e4 items"></div>
+                    <div class="e5 items"></div>
+                </div>
+
+                <div class="right" onclick="go_right6()"></div>
+                <div class="left" onclick="go_left6()"></div>
+                </div>
+
+                <div class="des">خلاصه کتاب هدیه خود را دریافت کنید</div>
+            </div>
+
+            <div class="exp">
+                <div class="holder">
+                    <h2 class="title">تجربه شخصی‌سازی شده مطالعه</h2>
+
+                    <p>بوکاپو با بررسی علایق و کتاب‌های مطالعه شده توسط شما می‌تواند کتاب‌های متناسب با نیاز شما را پیشنهاد کند تا به راحتی خلاصه کتاب بعدی خود را انتخاب کنید!</p>
+
+                    <div class="sign">ثبت نام و دریافت هدیه</div>
+                </div>
+
+                <div class="img"></div>
+            </div>
+
+            <div class="titleNumber">بوکاپو از نگاه اعداد</div>
+            <div class="number">
+                <div class="holder">
+                    <div class="n1">
+                    <div class="img"></div>
+                    <p class="title">۵,۳۲۱,۶۹۰+ دقیقه</p>
+                    <p>زمان صرف شده توسط کاربران برای مطالعه</p>
+                    </div>
+
+                    <div class="n2">
+                        <div class="img"></div>
+                        <p class="title">۸۶.۵%</p>
+                        <p>کاربرانی که موفق به ایجاد عادات مثبت جدید به کمک بوکاپو شدند</p>
+                    </div>
+
+                    <div class="n3">
+                        <div class="img"></div>
+                        <p class="title">۴.۲ از ۵</p>
+                        <p>میانگین امتیاز خلاصه کتاب‌های بوکاپو توسط کاربران</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="titleLike">به چه موضوعی علاقه دارید؟</div>
+            <div class="like">
+                <div class="holder">
+                    <div class="l1">
+                        <div class="img"></div>
+                        توسعه مهارت‌های فردی
+                    </div>
+                    <div class="l2">
+                        <div class="img"></div>
+                        کارآفرینی
+                    </div>
+                    <div class="l3">
+                        <div class="img"></div>
+                        روانشناسی
+                    </div>
+                    <div class="l4">
+                        <div class="img"></div>
+                        انگیزشی
+                    </div>
+                    <div class="l5">
+                         <div class="img"></div>
+                        اقتصاد و سرمایه گذاری
+                    </div>
+                    <div class="l6">
+                        <div class="img"></div>
+                        زندگی نامه و شرح‌حال
+                    </div>
+                    <div class="l7">
+                        <div class="img"></div>
+                        مهارت‌های اجتماعی
+                    </div>
+                    <div class="l8">
+                        <div class="img"></div>
+                        بازاریابی و فروش
+                    </div>
+                    <div class="l9">
+                        <div class="img"></div>
+                        هنر شاد زیستن
+                    </div>
+                    <div class="l10">
+                        <div class="img"></div>
+                        جامعه شناسی و فرهنگ
+                    </div>
+                    <div class="l11">
+                        <div class="img"></div>
+                        تکنولوژی و آینده جهان
+                    </div>
+                    <div class="l12">
+                        <div class="img"></div>
+                        سلامت، تغذیه و تناسب اندام
+                    </div>
+                    <div class="l13">
+                        <div class="img"></div>
+                        روابط عاطفی، خانواده و فرزندپروری
+                    </div>
+                    <div class="l14">
+                        <div class="img"></div>
+                        هنر و خلاقیت
+                    </div>
+                    <div class="l15">
+                        <div class="img"></div>
+                        فلسفه و معنویت
+                    </div>
+                    <div class="l16">
+                        <div class="img"></div>
+                        تاریخ
+                    </div>
+                    <div class="l17">
+                        <div class="img"></div>
+                        علمی
+                    </div>
+                    <div class="l18">
+                        <div class="img"></div>
+                        موفقیت شغلی
+                    </div>
+                    <div class="l19">
+                        <div class="img"></div>
+                        مدیریت و رهبری
+                    </div>
+                </div>
+            </div>
+
+            <div class="titleMini">پرطرفدارترین کتاب‌های مدیریت و رهبری<a>مشاهده همه ></a></div>
+            <div id="minislider1" class="miniSlider">
+                <div id="gal1" class="gal"></div>
+
+                <div class="right" onclick="go_right1()"></div>
+                <div class="left" onclick="go_left1()"></div>
+            </div>
+
+            <div id="minislider2" class="Slider">
+                <div id="gal2" class="gal">
+                    <div class="items">
+                        <img src="photos/11.png">
+                    </div>
+
+                    <div class="items">
+                        <img src="photos/12.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="titleMini t2">جدیدترین کتاب ها<a>مشاهده همه ></a></div>
+            <div id="minislider3" class="miniSlider">
+                <div id="gal3" class="gal"></div>
+
+                <div class="right" onclick="go_right3()"></div>
+                <div class="left" onclick="go_left3()"></div>
+            </div>
+
+            <div class="titleMini t3">انتخاب سردبیر<a>مشاهده همه ></a></div>
+            <div id="minislider4" class="miniSlider">
+                <div id="gal4" class="gal"></div>
+
+                <div class="right" onclick="go_right4()"></div>
+                <div class="left" onclick="go_left4()"></div>
+            </div>
+
+            <div class="firstBook">
+                <div class="right">
+                    <p class="title">خلاصه کتاب اول را از ما هدیه بگیرید</p>
+                    <p>قدم اول برای ورود به دنیای آگاهی و رشد هدیه بوکاپو به شماست. ثبت‌نام کنید و اولین خلاصه کتاب را به انتخاب خود از ما هدیه بگیرید.</p>
+                    <div class="number">
+                        <p class="title">شماره موبایل یا آدرس ایمیل</p>
+                        <input type="text" oninput="con()">
+                        <p>چنانچه شماره تلفن متعلق به ایران ندارید، لطفا از آدرس ایمیل خود برای ورود استفاده کنید.</p>
+                    </div>
+                    <div id="con1">ادامه</div>
+                </div>
+
+                <div class="left">
+                    <img>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="nav" class="hide">
+            <div class="navi" >
+                <p onclick="showBooks()">خلاصه کتاب ها  /    </p>
+                <span id="nTitle"></span>
+            </div>
+            
+        </div>
+
+        <div id="detail" class="hide">
+            <div class="holder">
+                <div class="main">
+                    <div class="top">
+                        <p class="p">خلاصه کتاب</p>
+
+                        <h2 class="title" id="dTitle"></h2>
+                        <p class="des" id="dDes"></p>
+                        <span class="writer"> اثر <span id="dWriter"> </span> </span>
+                    </div>
+
+                    <div class="bottom">
+                        <div class="right">خلاصه متنی</div>
+                        <div class="left">خلاصه صوتی</div>
+                    </div>
+                </div>
+
+                <div class="side">
+
+                    <div class="img">
+                        <img id="dImg">
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="lib">
+                        <span class="top">افزودن به کتابخانه</span>
+                        <span class="bottom">100 نفر این کتاب را در کتابخانه خود دارند</span>
+                    </div>
+
+                    <div class="prop">
+                        <div id="dBTime"></div>
+                        <div id="dBStar"></div>
+                        <div class="lis">خلاصه صوتی و متنی</div>
+                        <div id="dBCat"></div>
+                    </div>
+
+                    <div class="audio">
+                        <div class="first"></div>
+                        <p>به فایل صوتی نمونه گوش دهید</p>
+                        <input class="aud" type="range" min="1" max="100" step="1" value="0">
+                        <div id="mplay" class="show" onclick="m1play()"></div>
+                        <div id="mpause" class="hide" onclick="m1play1()"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="titleCats">دسته بندی</div>
+            <div id="dCats"></div>
+
+            <div class="titleMini">کتاب های مرتبط با <span id="tTitle"></span></div>
+            <div id="minislider5" class="miniSlider">
+                <div id="gal5" class="gal"></div>
+
+                <div class="right" onclick="go_right5()"></div>
+                <div class="left" onclick="go_left5()"></div>
+            </div>
+            
+            <div class="img"></div>
+        </div>
+
+        <div id="footer" class="show">
+
+            <div class="top">
+                <div class="dis">
+                    <div class="log"></div>
+                    <p class="title">دریچه‌ای به خلاصه کتاب‌ های روز دنیا</p>
+                    <p class="dis">بوکاپو به شما کمک می‌کند که همیشه و همه‌جا با مطالعه یا گوش دادن خلاصه‌ کتاب‌ها ، نکات کلیدی آن‌ها را دریابید و از زمان خود بهترین استفاده را ببرید.</p>
+                    <div class="android">دانلود اپلیکیشن اندروید</div>
+                    <div class="ios">دانلود اپلیکشن ios</div>
+                </div>
+
+                <div class="cat">
+                    <ul>
+                        <li> <i>خلاصه کتاب‌ های محبوب</i> </li>
+                        <li>کتاب شش ستون عزت نفس</li>
+                        <li>کتاب زنان زیرک</li>
+                        <li>کتاب باشگاه پنج صبح ها</li>
+                        <li>کتاب بی حد و مرز</li>
+                        <li>کتاب ایکیگای</li>
+                        <li>کتاب اثر مرکب</li>
+                        <li>کتاب عادت های اتمی</li>
+                        <li>کتاب قانون پنج ثانیه</li>
+                        <li>کتاب چهار میثاق</li>
+                        <li>کتاب اصل گرایی</li>
+                    </ul>
+
+                    <ul>
+                        <li> <i>خدمات</i> </li>
+                        <li>خرید اشتراک</li>
+                        <li>سازمان‌ها</li>
+                        <li>دانلود اپلیکیشن</li>
+                    </ul>
+
+                    <ul>
+                        <li> <i>شرکت</i> </li>
+                        <li>درباره ما</li>
+                        <li>تماس با ما</li>
+                        <li>پیشنهاد خلاصه کتاب</li>
+                        <li>قوانین و مقررات</li>
+                        <li>ثبت شکایت</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="buttom">
+                <p>تمام حقوق برای شرکت رسا ایده ویرا (بوکاپو) محفوظ است.</p>
+                <div class="img"></div>
+            </div>
+        </div>
+
+
+        <script src="script/script.js"></script>
+    </body>
+</html>

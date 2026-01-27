@@ -1,0 +1,826 @@
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+/* ---------- FIRST SECTION ---------- */
+
+#content > .first {
+    margin-top: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first > .right {
+    width: 40%;
+    margin-right: 100px;
+}
+
+.first > .right > .title,
+.first > .right > .t2 {
+    font-size: 35px;
+    font-family: yekanb;
+    font-weight: bolder;
+    width: 80%;
+    margin-right: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.first > .right > .t2 {
+    margin-top: -35px;
+}
+
+.first > .right .dis {
+    color: #555;
+    font-family: yekan;
+    font-size: 18px;
+    margin-right: 35px;
+}
+
+.first > .right .sum {
+    height: 50px;
+    width: 320px;
+    background-color: rgb(10, 197, 10);
+    border-radius: 10px;
+    margin: 10px auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: yekanb;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px 8px rgb(170, 241, 170);
+    cursor: pointer;
+}
+
+.first > .img {
+    width: 60%;
+    height: 100%;
+    background: url(../photos/1.png) no-repeat 50%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content > .first > .right > .color1{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(128, 203, 247);
+    position: absolute;
+    right: 355px;
+    top: 250px;
+    z-index: 1;
+}
+
+#content > .first > .right > .color2{
+    height: 25px;
+    width: 162px;
+    background-color: rgb(128, 203, 247);
+    position: absolute;
+    right: 270px;
+    top:300px;
+    z-index: 1;
+}
+
+#content > .first > .right > .img{
+    background: url(../photos/photos/arrow.png) no-repeat 50%;
+    background-size: 80%;
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    right: 220px;
+}
+
+/* ---------- HELP SECTION ---------- */
+
+.help {
+    width: 80%;
+    margin-top: 100px;
+}
+
+.help > .top {
+    text-align: right;
+    width: 40%;
+    margin-right: 140px;
+    position: relative;
+}
+
+.help > .top > .img{
+    background: url(../photos/photos/Layer1.png) no-repeat 50%;
+    background-size: contain;
+    position: absolute;
+    height: 50px;
+    width: 40px;
+    top: -30px;
+    right: -40px;
+}
+
+.help > .top > p{
+    font-size: 20px;
+    font-family: yekan;
+}
+
+.help > .top > .title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.help > .buttom > .top,
+.help > .buttom > .buttom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.help > .buttom{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.help > .buttom > .top > div,
+.help > .buttom > .buttom > div {
+    width: 30%;
+    text-align: right;
+}
+
+.help > .buttom > .top > div > .title,
+.help > .buttom > .buttom > div > .title{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #111;
+}
+
+.help > .buttom > .top > div > p,
+.help > .buttom > .buttom > div > p{
+    font-size: 18px;
+    color: #444;
+}
+
+.help .img {
+    width: 60px;
+    height: 60px;
+}
+
+.help .h1 .img{
+    background: url(../photos/photos/h1.png) no-repeat 50%;
+}
+
+.help .h2 .img{
+    background: url(../photos/photos/h2.png) no-repeat 50%;
+}
+
+.help .h3 .img{
+    background: url(../photos/photos/h3.png) no-repeat 50%;
+}
+
+.help .h4 .img{
+    background: url(../photos/photos/h4.png) no-repeat 50%;
+}
+
+.help .h5 .img{
+    background: url(../photos/photos/h5.png) no-repeat 50%;
+}
+
+.help .h6 .img{
+    background: url(../photos/photos/h6.png) no-repeat 50%;
+}
+
+/* ---------- GIFT ---------- */
+
+.gift {
+    width: 80%;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 150px;
+    height: 350px;
+}
+
+.gift > .right {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    font-size: 18px;
+}
+
+.gift > .right > .title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.gift > .right > .gift {
+    margin-top: 20px;
+    width: 265px;
+    height: 45px;
+    background-color: #006efd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.gift > .left {
+    width: 100%;
+    height: 100%;
+    margin-right: 60px;
+}
+
+.gift > .left > .img{
+    background: url(../photos/photos/2.png) no-repeat 50%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* ---------- phone ---------- */
+
+.phone {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.phone > div {
+    width: 30%;
+}
+
+.phone > div > .img {
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+}
+
+.phone > .p1{
+    margin-right: 50px;
+}
+
+.phone > .p1 > .dis,
+.phone > .p3 > .dis{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #eee;
+    width: 250px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.phone > .p1 > .dis,
+.phone > .p3 > .dis{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #eee;
+    width: 250px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.phone > .p1 > .dis > .img,
+.phone > .p3 > .dis > .img{
+    height: 20px;
+    width: 20px;
+    background: url(../photos/3.png) no-repeat 50%;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.phone > .p1 > .dis > .title,
+.phone > .p3 > .dis > .title{
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}   
+
+.phone > .p1 > .img{
+    background: url(../photos/photos/phone1.png) no-repeat 50%;
+}
+
+.phone > .p2 > .img{
+    background: url(../photos/photos/phone2.png) no-repeat 50%;
+    background-size: 90%;
+    height: 600px;
+    width: 450px;
+    margin-top: -100px;
+    margin-right: -30px;
+}
+
+.phone > .p3 > .img{
+    background: url(../photos/photos/phone3.png) no-repeat 50%;
+}
+
+/* ---------- IDEA ---------- */
+
+.idea{
+    width: 70%;
+    height: 350px;
+    margin-bottom: 200px;
+}
+
+.idea > p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.idea > .miniSlider{
+    height: 320px;
+    width: 100%;
+}
+
+.idea > .miniSlider > .gal > .items{
+    width: 300px;
+    height: 98%;
+    box-shadow: 0 0 10px 4px #eee;
+}
+
+.idea > .miniSlider > .gal > .e1{
+    background: url(../photos/e1.png) no-repeat 50%;
+    background-size: contain;
+}
+
+.idea > .miniSlider > .gal > .e2{
+    background: url(../photos/e2.png) no-repeat 50%;
+    background-size: contain;
+}
+
+.idea > .miniSlider > .gal > .e3{
+    background: url(../photos/e3.png) no-repeat 50%;
+    background-size: contain;
+}
+
+.idea > .miniSlider > .gal > .e4{
+    background: url(../photos/e4.png) no-repeat 50%;
+    background-size: contain;
+}
+
+.idea > .miniSlider > .gal > .e5{
+    background: url(../photos/e5.png) no-repeat 50%;
+    background-size: contain;
+}
+
+
+.idea > .des{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(10, 197, 10);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: trafficb;
+    margin: 0 auto;
+    margin-top: -80px;
+    box-shadow: 0px 0px 20px 8px rgb(170, 241, 170);
+}
+
+/* ---------- exp ---------- */
+
+.exp{
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.exp > .holder{
+    position: absolute;
+    width: 30%;
+    top: 40px;
+    right: 220px;
+}
+
+.exp > .holder > .sign{
+    margin-top: 20px;
+    width: 255px;
+    height: 50px;
+    background-color: #006efd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.exp > .holder > p{
+    font-size: 16px;
+}
+
+.exp > .holder > .title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.exp > .img{
+    width: 80%;
+    height: 100%;
+    background: url(../photos/photos/exp.png) no-repeat ;
+    background-size: 95%;
+    margin: 0 auto;
+}
+
+/* ---------- NUMBERS ---------- */
+
+.titleNumber{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+#content > .number {
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.number > .holder{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.number > .holder > div {
+    width: 35%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #e1e1e2;
+}
+
+.number > .holder > .n1 > .img,
+.number > .holder > .n2 > .img,
+.number > .holder > .n3 > .img{
+    background: url(../photos/5.png) no-repeat 50%;
+    background-size: 100%;
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.number > .holder > .n2 > .img{
+    background: url(../photos/6.png) no-repeat 50%;
+}
+
+.number > .holder > .n3 > .img{
+    background: url(../photos/7.png) no-repeat 50%;
+}
+
+.number > .holder > div > p{
+    font-size: 20px;
+    margin: 0 auto;
+    color: rgb(114, 114, 116);
+}
+
+.number > .holder > div > .title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 20px auto;
+    color: #333;
+}
+
+/* ---------- LIKE ---------- */
+
+.titleLike{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+.like {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.like > .holder {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.like > .holder > div:hover{
+    border: 2px solid #6686a3;
+}
+
+.like > .holder > div {
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 2px solid #e7f3ff;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.like > .holder > .l1 > .img{
+    background: url(../photos/photos/categorysIcon/1.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l2 > .img{
+    background: url(../photos/photos/categorysIcon/2.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l3 > .img{
+    background: url(../photos/photos/categorysIcon/3.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l4 > .img{
+    background: url(../photos/photos/categorysIcon/41.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l5 > .img{
+    background: url(../photos/photos/categorysIcon/42.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l6 > .img{
+    background: url(../photos/photos/categorysIcon/5.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l7 > .img{
+    background: url(../photos/photos/categorysIcon/6.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l8 > .img{
+    background: url(../photos/photos/categorysIcon/7.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l9 > .img{
+    background: url(../photos/photos/categorysIcon/8.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l10 > .img{
+    background: url(../photos/photos/categorysIcon/9.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l11 > .img{
+    background: url(../photos/photos/categorysIcon/10.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l12 > .img{
+    background: url(../photos/photos/categorysIcon/11.png) no-repeat 50%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l13 > .img{
+    background: url(../photos/photos/categorysIcon/12.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l14 > .img{
+    background: url(../photos/photos/categorysIcon/13.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l15 > .img{
+    background: url(../photos/photos/categorysIcon/14.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l16 > .img{
+    background: url(../photos/photos/categorysIcon/15.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l17 > .img{
+    background: url(../photos/photos/categorysIcon/16.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l18 > .img{
+    background: url(../photos/photos/categorysIcon/17.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+.like > .holder > .l19 > .img{
+    background: url(../photos/photos/categorysIcon/18.png) no-repeat 50%;
+    background-size: 90%;
+    height: 30px;
+    width:  40px;
+}
+
+/* ---------- minislider1 ---------- */
+
+.titleMini{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.titleMini > a{
+    font-size: 18px;
+    font-family: yekanb;
+    color: blue;
+    cursor: pointer;
+}
+
+/* .minislider1{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: 150px;
+} */
+
+/* ---------- minislider2 ---------- */
+
+.minislider2{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    transition: 0.3s;
+}
+
+/* ---------- minislider3 ---------- */
+
+.t2{
+    gap: 640px;
+}
+
+
+.minislider3{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+/* ---------- minislider4 ---------- */
+
+.t3{
+    gap: 650px;
+}
+
+.minislider4{
+    width: 70%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+/* ---------- firstBook ---------- */
+
+.firstBook{
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 10px;
+}
+
+.firstBook > .right{
+    width: 50%;
+    height: 100%;
+}
+
+.firstBook > .right > p{
+    font-size: 19px;
+    font-family: yekanb;
+}
+
+.firstBook > .right > .title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.firstBook > .right > .number{
+    flex-flow: wrap;
+    justify-content: right;
+}
+
+.firstBook > .right > .number > .title{
+    font-size: 19px;
+    font-family: yekanb;
+    margin-top: 30px;
+}
+
+.firstBook > .right > .number > input{
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 5px;
+    border: 2px solid #d0e5fc;
+    box-shadow: 0px 0px 3px 4px #e5f1fd;
+    font-size: 18px;
+}
+
+.firstBook > .right p{
+    color: rgb(114, 114, 116);
+}
+
+.firstBook > .right .title{
+    color: black;
+}
+
+.firstBook > .right > #con1{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 5px;
+    background-color: #acbed1;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.firstBook > .left{
+    width: 50%;
+    height: 100%;
+    background: url(../photos/8.png) no-repeat 50% 0%;
+    background-size: 130%;
+}
+
+#content.hide,
+#detail.hide,
+#nav.hide{
+	display:none;
+}

@@ -1,0 +1,24 @@
+#nav{
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+#nav > .navi{
+    margin-right: 200px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#nav > .navi > p{
+    width: 110px;
+    cursor: pointer;
+}
+
+#nav > .navi > span{
+    color: black;
+    cursor: auto;
+}

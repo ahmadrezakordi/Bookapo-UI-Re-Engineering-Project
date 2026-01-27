@@ -1,0 +1,34 @@
+@font-face{
+    src: url(../fonts/iran-sans/Iranian\ Sans.ttf);
+    font-family: sans;
+}
+
+@font-face{
+    src: url(../fonts/BYekan/BYekan+\ Bold.ttf);
+    font-family: yekanb;
+}
+
+@font-face{
+    src: url(../fonts/BYekan/BYekan+.ttf);
+    font-family: yekan;
+}
+
+@font-face{
+    src: url(../fonts/bMehr/B\ Mehr\ Bold_0.ttf);
+    font-family: mehr;
+}
+
+@font-face{
+    src: url(../fonts/fadra/fedra\ arabic.ttf);
+    font-family: fedra;
+}
+
+@font-face{
+    src: url(../fonts/traffic/B\ Traffic_0.ttf);
+    font-family: traffic;
+}
+
+@font-face{
+    src: url(../fonts/traffic/B\ Traffic\ Bold_0.ttf);
+    font-family: trafficb;
+}
