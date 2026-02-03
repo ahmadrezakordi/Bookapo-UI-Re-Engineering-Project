@@ -63,7 +63,7 @@
 .first > .img {
     width: 60%;
     height: 100%;
-    background: url(../photos/1.png) no-repeat 50%;
+    background: url(../images/1.png) no-repeat 50%;
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
 }
 
 #content > .first > .right > .img{
-    background: url(../photos/photos/arrow.png) no-repeat 50%;
+    background: url(../images/arrow.png) no-repeat 50%;
     background-size: 80%;
     height: 60px;
     width: 40px;
@@ -114,7 +114,7 @@
 }
 
 .help > .top > .img{
-    background: url(../photos/photos/Layer1.png) no-repeat 50%;
+    background: url(../images/Layer1.png) no-repeat 50%;
     background-size: contain;
     position: absolute;
     height: 50px;
@@ -170,27 +170,27 @@
 }
 
 .help .h1 .img{
-    background: url(../photos/photos/h1.png) no-repeat 50%;
+    background: url(../images/h1.png) no-repeat 50%;
 }
 
 .help .h2 .img{
-    background: url(../photos/photos/h2.png) no-repeat 50%;
+    background: url(../images/h2.png) no-repeat 50%;
 }
 
 .help .h3 .img{
-    background: url(../photos/photos/h3.png) no-repeat 50%;
+    background: url(../images/h3.png) no-repeat 50%;
 }
 
 .help .h4 .img{
-    background: url(../photos/photos/h4.png) no-repeat 50%;
+    background: url(../images/h4.png) no-repeat 50%;
 }
 
 .help .h5 .img{
-    background: url(../photos/photos/h5.png) no-repeat 50%;
+    background: url(../images/h5.png) no-repeat 50%;
 }
 
 .help .h6 .img{
-    background: url(../photos/photos/h6.png) no-repeat 50%;
+    background: url(../images/h6.png) no-repeat 50%;
 }
 
 /* ---------- GIFT ---------- */
@@ -236,7 +236,7 @@
 }
 
 .gift > .left > .img{
-    background: url(../photos/photos/2.png) no-repeat 50%;
+    background: url(../images/2.png) no-repeat 50%;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -290,7 +290,7 @@
 .phone > .p3 > .dis > .img{
     height: 20px;
     width: 20px;
-    background: url(../photos/3.png) no-repeat 50%;
+    background: url(../images/3.png) no-repeat 50%;
     background-size: cover;
     margin-top: 10px;
 }
@@ -303,11 +303,11 @@
 }   
 
 .phone > .p1 > .img{
-    background: url(../photos/photos/phone1.png) no-repeat 50%;
+    background: url(../images/phone1.png) no-repeat 50%;
 }
 
 .phone > .p2 > .img{
-    background: url(../photos/photos/phone2.png) no-repeat 50%;
+    background: url(../images/phone2.png) no-repeat 50%;
     background-size: 90%;
     height: 600px;
     width: 450px;
@@ -316,7 +316,7 @@
 }
 
 .phone > .p3 > .img{
-    background: url(../photos/photos/phone3.png) no-repeat 50%;
+    background: url(../images/phone3.png) no-repeat 50%;
 }
 
 /* ---------- IDEA ---------- */
@@ -344,27 +344,27 @@
 }
 
 .idea > .miniSlider > .gal > .e1{
-    background: url(../photos/e1.png) no-repeat 50%;
+    background: url(../images/e1.png) no-repeat 50%;
     background-size: contain;
 }
 
 .idea > .miniSlider > .gal > .e2{
-    background: url(../photos/e2.png) no-repeat 50%;
+    background: url(../images/e2.png) no-repeat 50%;
     background-size: contain;
 }
 
 .idea > .miniSlider > .gal > .e3{
-    background: url(../photos/e3.png) no-repeat 50%;
+    background: url(../images/e3.png) no-repeat 50%;
     background-size: contain;
 }
 
 .idea > .miniSlider > .gal > .e4{
-    background: url(../photos/e4.png) no-repeat 50%;
+    background: url(../images/e4.png) no-repeat 50%;
     background-size: contain;
 }
 
 .idea > .miniSlider > .gal > .e5{
-    background: url(../photos/e5.png) no-repeat 50%;
+    background: url(../images/e5.png) no-repeat 50%;
     background-size: contain;
 }
 
@@ -431,7 +431,7 @@
 .exp > .img{
     width: 80%;
     height: 100%;
-    background: url(../photos/photos/exp.png) no-repeat ;
+    background: url(../images/exp.png) no-repeat ;
     background-size: 95%;
     margin: 0 auto;
 }
@@ -472,7 +472,7 @@
 .number > .holder > .n1 > .img,
 .number > .holder > .n2 > .img,
 .number > .holder > .n3 > .img{
-    background: url(../photos/5.png) no-repeat 50%;
+    background: url(../images/5.png) no-repeat 50%;
     background-size: 100%;
     height: 90px;
     width: 90px;
@@ -481,11 +481,11 @@
 }
 
 .number > .holder > .n2 > .img{
-    background: url(../photos/6.png) no-repeat 50%;
+    background: url(../images/6.png) no-repeat 50%;
 }
 
 .number > .holder > .n3 > .img{
-    background: url(../photos/7.png) no-repeat 50%;
+    background: url(../images/7.png) no-repeat 50%;
 }
 
 .number > .holder > div > p{
@@ -543,132 +543,132 @@
 }
 
 .like > .holder > .l1 > .img{
-    background: url(../photos/photos/categorysIcon/1.png) no-repeat 50%;
+    background: url(../images/i2.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l2 > .img{
-    background: url(../photos/photos/categorysIcon/2.png) no-repeat 50%;
+    background: url(../images/i18.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l3 > .img{
-    background: url(../photos/photos/categorysIcon/3.png) no-repeat 50%;
+    background: url(../images/i11.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l4 > .img{
-    background: url(../photos/photos/categorysIcon/41.png) no-repeat 50%;
+    background: url(../images/i16.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l5 > .img{
-    background: url(../photos/photos/categorysIcon/42.png) no-repeat 50%;
+    background: url(../images/i7.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l6 > .img{
-    background: url(../photos/photos/categorysIcon/5.png) no-repeat 50%;
+    background: url(../images/i12.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l7 > .img{
-    background: url(../photos/photos/categorysIcon/6.png) no-repeat 50%;
+    background: url(../images/i17.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l8 > .img{
-    background: url(../photos/photos/categorysIcon/7.png) no-repeat 50%;
+    background: url(../images/i8.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l9 > .img{
-    background: url(../photos/photos/categorysIcon/8.png) no-repeat 50%;
+    background: url(../images/i20.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l10 > .img{
-    background: url(../photos/photos/categorysIcon/9.png) no-repeat 50%;
+    background: url(../images/i3.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l11 > .img{
-    background: url(../photos/photos/categorysIcon/10.png) no-repeat 50%;
+    background: url(../images/i13.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l12 > .img{
-    background: url(../photos/photos/categorysIcon/11.png) no-repeat 50%;
+    background: url(../images/i4.png) no-repeat 50%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l13 > .img{
-    background: url(../photos/photos/categorysIcon/12.png) no-repeat 50%;
+    background: url(../images/i5.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l14 > .img{
-    background: url(../photos/photos/categorysIcon/13.png) no-repeat 50%;
+    background: url(../images/i9.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l15 > .img{
-    background: url(../photos/photos/categorysIcon/14.png) no-repeat 50%;
+    background: url(../images/i19.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l16 > .img{
-    background: url(../photos/photos/categorysIcon/15.png) no-repeat 50%;
+    background: url(../images/i14.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l17 > .img{
-    background: url(../photos/photos/categorysIcon/16.png) no-repeat 50%;
+    background: url(../images/i10.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l18 > .img{
-    background: url(../photos/photos/categorysIcon/17.png) no-repeat 50%;
+    background: url(../images/i15.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
 }
 
 .like > .holder > .l19 > .img{
-    background: url(../photos/photos/categorysIcon/18.png) no-repeat 50%;
+    background: url(../images/i6.png) no-repeat 50%;
     background-size: 90%;
     height: 30px;
     width:  40px;
@@ -815,7 +815,7 @@
 .firstBook > .left{
     width: 50%;
     height: 100%;
-    background: url(../photos/8.png) no-repeat 50% 0%;
+    background: url(../images/8.png) no-repeat 50% 0%;
     background-size: 130%;
 }
 
