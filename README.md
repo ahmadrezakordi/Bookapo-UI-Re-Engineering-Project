@@ -62,8 +62,8 @@ Rather than shallow responsiveness with reduced quality.
 ---
 
 ## Live Demo
-Live Demo: [ADD YOUR LIVE LINK HERE]  
-Source Code: [ADD YOUR GITHUB LINK HERE]
+Live Demo: [https://ahmadrezakordi.github.io/Bookapo-UI-Re-Engineering-Project/]  
+Source Code: [https://github.com/ahmadrezakordi/Bookapo-UI-Re-Engineering-Project/]
 
 ---
 
@@ -71,3 +71,4 @@ Source Code: [ADD YOUR GITHUB LINK HERE]
 **Ahmadreza Kordi**  
 Junior Frontend Developer  
 Desktop UI, CSS architecture & JavaScript fundamentals
+
