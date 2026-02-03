@@ -77,5 +77,5 @@
             // catIcon
 
             if (catHolder.style.visibility == "visible") {
-                cat2Ic.style.background = "url(../photos/photos/cat22.png) no-repeat 120% 50%";
+                cat2Ic.style.background = "url(../images/cat22.png) no-repeat 120% 50%";
             }
