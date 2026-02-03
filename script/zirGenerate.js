@@ -4,7 +4,7 @@ function generateCatItems(holderID,jsonDataItem){
     it.className = "row1";
 
     let pic = document.createElement('img');
-    pic.src = "../images/i" + jsonDataItem.catIcon;
+    pic.src = "./images/i" + jsonDataItem.catIcon;
 
     let li = document.createElement('p')
     li.innerHTML = jsonDataItem.catName;
@@ -38,4 +38,5 @@ document.getElementById(holderID).innerHTML = "";
 	generateCatItems(holderID,jsonData[i]);
 	}
 }
+
 
