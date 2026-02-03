@@ -107,7 +107,7 @@
    margin-top: 10px;
    text-indent: 25px;
    border-radius: 5px;
-   background: url("../images/books/save.png") no-repeat 100% 50%;
+   background: url("../images/save.png") no-repeat 100% 50%;
    background-size: 12%;
    font-size: 14px;
    font-weight: bold;
@@ -150,3 +150,4 @@
     background: url("../images/lb.png") no-repeat 50%;
     background-size: 90%;
 }
+
