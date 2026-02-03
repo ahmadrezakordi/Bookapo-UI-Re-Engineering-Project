@@ -45,7 +45,7 @@ body{
 #header > .top > .logo{
     width: 15%;
     height: 40px;
-    background: url(../photos/logo.png) no-repeat 100% -90%;
+    background: url(../images/logo.png) no-repeat 100% -90%;
     background-size: 50%;
     /* margin-left: 60px; */
 }
@@ -90,15 +90,6 @@ body{
     cursor: pointer;
     margin-right: 20px;
     font-family: trafficb;
-}
-
-#header > .top > .dark{
-    width: 3%;
-    border: none;
-    background: url(../../images/moon.png) no-repeat 50%;
-    background-size: 80%;
-    cursor: pointer;
-    border: 1px solid #ccc;
 }
 
 /* buttom */
@@ -240,3 +231,4 @@ body{
 	border-radius:3px;
 	box-shadow:0 0 15px 1px #eee;	
 }
+
