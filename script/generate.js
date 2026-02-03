@@ -9,7 +9,7 @@ function generateBookItems(holderID,jsonDataItem){
     it.addEventListener("click",() => {showDetail(jsonDataItem.id);});
         
       let pic = document.createElement('img');
-      pic.src = "D:/Sari/Bookapo/photos/photos/books/bookPic/" + jsonDataItem.pic;
+      pic.src = "D:/Sari/Bookapo/images/b" + jsonDataItem.pic;
 
     it.appendChild(pic);
 
