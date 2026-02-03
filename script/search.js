@@ -23,7 +23,7 @@ function fill_search(jsonData){
 		}
 	 
 		let pic = document.createElement('img');
-		pic.src = "D:/Sari/Bookapo/photos/photos/books/bookPic/" + jsonData[i].pic;
+		pic.src = "D:/Sari/Bookapo/images/b" + jsonData[i].pic;
 
 		let title = document.createElement('span');
 		title.innerHTML = jsonData[i].title;
