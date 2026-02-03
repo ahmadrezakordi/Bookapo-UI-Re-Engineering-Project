@@ -18,7 +18,9 @@ function showBooks() {
                 let curBook = productData.find(el => el.id == bookId);
 
                 nTitle.innerHTML = curBook.title;
-                dImg.src = "D:/Sari/Bookapo/images/b" + curBook.pic;
+                dImg.src = "../images/b" + curBook.pic;
+                console.log(dImg.src);
+
                 dTitle.innerHTML = curBook.title;
                 dDes.innerHTML = curBook.decription;
                 dWriter.innerHTML = curBook.writer;
@@ -56,3 +58,4 @@ function showBooks() {
             }
 
             
+
