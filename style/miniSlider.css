@@ -73,7 +73,7 @@
    height: 25px;
    text-indent: 30px;
    border-radius: 5px;
-   background: url("../photos/photos/headphone.png") no-repeat 90% 40%;
+   background: url("../images/headphone.png") no-repeat 90% 40%;
    background-size: 25%;
    font-size: 14px;
    color: rgb(114, 114, 116);
@@ -88,7 +88,7 @@
    height: 25px;
    text-indent: 25px;
    border-radius: 5px;
-   background: url("../photos/photos/star.png") no-repeat 80% 40%;
+   background: url("../images/star.png") no-repeat 80% 40%;
    background-size: 25%;
    background-color: rgb(250, 237, 209);
    font-size: 13px;
@@ -107,7 +107,7 @@
    margin-top: 10px;
    text-indent: 25px;
    border-radius: 5px;
-   background: url("../photos/photos/books/save.png") no-repeat 100% 50%;
+   background: url("../images/books/save.png") no-repeat 100% 50%;
    background-size: 12%;
    font-size: 14px;
    font-weight: bold;
@@ -130,7 +130,7 @@
     background-color: #ccc;
     transition: 0.3s;
     cursor: pointer;
-    background: url("../photos/photos/rb2.png") no-repeat 50%;
+    background: url("../images/rb2.png") no-repeat 50%;
     background-size: 90%;
 }
 
@@ -147,6 +147,6 @@
     background-color: #ccc;
     transition: 0.3s;
     cursor: pointer;
-    background: url("../photos/photos/lb.png") no-repeat 50%;
+    background: url("../images/lb.png") no-repeat 50%;
     background-size: 90%;
 }
