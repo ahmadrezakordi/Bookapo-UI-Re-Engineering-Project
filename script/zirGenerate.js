@@ -4,7 +4,7 @@ function generateCatItems(holderID,jsonDataItem){
     it.className = "row1";
 
     let pic = document.createElement('img');
-    pic.src = "D:/Sari/Bookapo/photos/photos/headerMenuIcons/icons/" + jsonDataItem.catIcon;
+    pic.src = "D:/Sari/Bookapo/images/i" + jsonDataItem.catIcon;
 
     let li = document.createElement('p')
     li.innerHTML = jsonDataItem.catName;
