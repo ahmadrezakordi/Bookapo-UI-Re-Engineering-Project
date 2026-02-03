@@ -9,7 +9,7 @@ function generateBookItems(holderID,jsonDataItem){
     it.addEventListener("click",() => {showDetail(jsonDataItem.id);});
         
       let pic = document.createElement('img');
-      pic.src = "D:/Sari/Bookapo/images/b" + jsonDataItem.pic;
+      pic.src = "../images/b" + jsonDataItem.pic;
 
     it.appendChild(pic);
 
@@ -75,3 +75,4 @@ document.getElementById(holderID).innerHTML = "";
 	generateBookItems(holderID,jsonData[i]);
 	}
 }
+
