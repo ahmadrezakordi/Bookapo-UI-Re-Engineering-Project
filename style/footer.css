@@ -25,7 +25,7 @@
 #footer > .top > .dis > .log{
     height: 50px;
     width: 100px;
-    background: url(../photos/logo2.png) no-repeat 50%;
+    background: url(../images/logo2.png) no-repeat 50%;
     background-size: 90%;
 }
 
@@ -105,6 +105,6 @@
 #footer > .buttom > .img{
     height: 30px;
     width: 200px;
-    background: url(../photos/10.png) no-repeat 50%;
+    background: url(../images/10.png) no-repeat 50%;
     background-size: 100%;
 }
