@@ -4,6 +4,9 @@
 **Platform:** Desktop-first Web (1440px)  
 **Author:** Ahmad Reza Kordi 
 
+Live Demo: https://ahmadrezakordi.github.io/Bookapo-UI-Re-Engineering-Project/
+Source Code: https://github.com/ahmadrezakordi/Bookapo-UI-Re-Engineering-Project/
+
 ## Overview
 This project is a desktop-first UI clone of the Bookapo website.
 
@@ -71,4 +74,5 @@ Source Code: [https://github.com/ahmadrezakordi/Bookapo-UI-Re-Engineering-Projec
 **Ahmadreza Kordi**  
 Junior Frontend Developer  
 Desktop UI, CSS architecture & JavaScript fundamentals
+
 
